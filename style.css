@@ -74,6 +74,7 @@ h1 {
     right: 15px;
 }
 button{
+    cursor: pointer;
     background: linear-gradient(0deg, rgba(73,92,92,1) 0%, rgba(165,185,193,1) 92%);
      color: black;
   border: none;
