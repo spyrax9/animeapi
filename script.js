@@ -5,7 +5,7 @@ let searchword ;
 function loadCharacters (){
     searchword = document.getElementById("searchBar").value;
     var urlsearchword = decodeURI(searchword);
-        fetch('https://kitsu.io/api/edge/anime?filter[text]='+urlsearchword)
+        fetch('https://cors-anywhere.herokuapp.com/'+'https://kitsu.io/api/edge/anime?filter[text]='+urlsearchword)
         .then(response => {
             return response.json();
         })
